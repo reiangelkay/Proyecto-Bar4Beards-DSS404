@@ -1,4 +1,4 @@
-# Desafio Practico: Proyecto-Barberia-DSS404
+# Desafio Practico: Bar4Beards
 
 **Universidad:** Universidad don bosco
 
