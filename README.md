@@ -33,4 +33,4 @@ Este proyecto utiliza una arquitectura desacoplada basada en el consumo de una A
 **Documentación de la API:** [Pendiente de Sergio]
 
 ## Licencia Legal
-*Este proyecto está protegido bajo la licencia:* **[Nombre de la Licencia Creative Commons - Pendiente de Justin]**
+*Este proyecto está protegido bajo la licencia:* *<a href="https://github.com/reiangelkay/Proyecto-Bar4Beards-DSS404">Bar4Beards</a> © 2026 by <a href="https://github.com/reiangelkay">Bar4Beards Teams</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">*
