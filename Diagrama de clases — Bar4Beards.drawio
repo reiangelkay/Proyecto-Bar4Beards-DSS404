@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Página-1" id="O1mOnoN_jj5oQfoaVwR-">
+    <mxGraphModel dx="8646" dy="6637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="usuario" parent="1" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#1F4E79;fontStyle=1;fontSize=13;" value="Usuario" vertex="1">
+          <mxGeometry height="190" width="200" x="-1770" y="-2715" as="geometry" />
+        </mxCell>
+        <mxCell id="2" parent="usuario" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_usuario : int&#xa;- nombre : string&#xa;- email : string&#xa;- password_hash : string&#xa;- rol : enum&#xa;─────────────&#xa;+ login() : bool&#xa;+ logout() : void" vertex="1">
+          <mxGeometry height="160" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="barbero" parent="1" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#0F6E56;fontStyle=1;fontSize=13;" value="Barbero" vertex="1">
+          <mxGeometry height="205" width="200" x="-1350" y="-2930" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="barbero" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_barbero : int&#xa;- id_usuario : int&#xa;- especialidad : string&#xa;- foto_url : string&#xa;- calificacion_prom : float&#xa;- activo : boolean&#xa;─────────────&#xa;+ verAgenda() : List&#xa;+ actualizarCalificacion()" vertex="1">
+          <mxGeometry height="175" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cita" parent="1" style="swimlane;startSize=30;fillColor=#ffe6cc;strokeColor=#993C1D;fontStyle=1;fontSize=13;" value="Cita" vertex="1">
+          <mxGeometry height="210" width="200" x="-910" y="-2735" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="cita" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_cita : int&#xa;- id_cliente : int&#xa;- id_barbero : int&#xa;- fecha : date&#xa;- hora : time&#xa;- estado : enum&#xa;- fecha_creacion : datetime&#xa;─────────────&#xa;+ confirmar() : void&#xa;+ cancelar() : void" vertex="1">
+          <mxGeometry height="180" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cola" parent="1" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#854F0B;fontStyle=1;fontSize=13;" value="ColaEspera" vertex="1">
+          <mxGeometry height="190" width="200" x="-1080" y="-2415" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="cola" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_cola : int&#xa;- id_cita : int&#xa;- numero_turno : int&#xa;- estado_turno : enum&#xa;- alerta_enviada : bool&#xa;─────────────&#xa;+ verificarAlerta() : void&#xa;+ avanzarTurno() : void" vertex="1">
+          <mxGeometry height="160" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="calif" parent="1" style="swimlane;startSize=30;fillColor=#e1d5e7;strokeColor=#3C3489;fontStyle=1;fontSize=13;" value="Calificacion" vertex="1">
+          <mxGeometry height="220" width="200" x="-1600" y="-2445" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="calif" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_calificacion : int&#xa;- id_cita : int&#xa;- id_barbero : int&#xa;- estrellas : int (1-5)&#xa;- punt_puntualidad : int&#xa;- punt_tecnica : int&#xa;- comentario : string&#xa;─────────────&#xa;+ registrar() : void&#xa;+ calcularPromedio() : float" vertex="1">
+          <mxGeometry height="190" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido" parent="1" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#993C1D;fontStyle=1;fontSize=13;" value="Pedido" vertex="1">
+          <mxGeometry height="175" width="200" x="-910" y="-2170" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="pedido" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_pedido : int&#xa;- id_cita : int&#xa;- id_producto : int&#xa;- id_usuario : int&#xa;- cantidad : int&#xa;- total : decimal&#xa;─────────────&#xa;+ registrar() : void" vertex="1">
+          <mxGeometry height="145" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="prod" parent="1" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#0F6E56;fontStyle=1;fontSize=13;" value="Producto" vertex="1">
+          <mxGeometry height="205" width="200" x="-1320" y="-2015" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="prod" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_producto : int&#xa;- nombre : string&#xa;- categoria : string&#xa;- precio : decimal&#xa;- stock : int&#xa;- stock_minimo : int&#xa;- activo : boolean&#xa;─────────────&#xa;+ alertaStock() : bool&#xa;+ actualizarStock() : void" vertex="1">
+          <mxGeometry height="175" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mov" parent="1" style="swimlane;startSize=30;fillColor=#ffe6cc;strokeColor=#993C1D;fontStyle=1;fontSize=13;" value="MovimientoInventario" vertex="1">
+          <mxGeometry height="190" width="200" x="-1770" y="-2185" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="mov" style="text;align=left;fontSize=11;spacingLeft=6;" value="- id_movimiento : int&#xa;- id_producto : int&#xa;- id_usuario : int&#xa;- tipo : enum&#xa;- cantidad : int&#xa;- motivo : string&#xa;- fecha : datetime&#xa;─────────────&#xa;+ registrar() : void&#xa;+ listarPorProducto() : List" vertex="1">
+          <mxGeometry height="160" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="usuario" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="barbero" value="1 : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="usuario" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="cita" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="barbero" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="cita" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="cita" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="cola" value="1 : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="cita" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="calif" value="1 : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="barbero" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="calif" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="cita" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="pedido" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="usuario" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="pedido" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="pedido" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="prod" value="N : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="prod" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;" target="mov" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="usuario" style="endArrow=open;endFill=0;fontSize=11;fontStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mov" value="1 : N">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1670" y="-1975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Página-1" id="uIASrXMY3rqbMNE7hxi5">
+    <mxGraphModel dx="1169" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.flowchart.start_2;fillColor=none;strokeColor=#1F4E79;dashed=1;verticalLabelPosition=top;verticalAlign=bottom;fontSize=13;fontStyle=1;strokeWidth=2;" value="Sistema Bar4Beards" vertex="1">
+          <mxGeometry height="610" width="419" x="199" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cli" parent="1" style="shape=umlActor;fillColor=#dae8fc;strokeColor=#1F4E79;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="70" width="50" x="49" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="bar" parent="1" style="shape=umlActor;fillColor=#d5e8d4;strokeColor=#0F6E56;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Barbero" vertex="1">
+          <mxGeometry height="70" width="50" x="49" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="adm" parent="1" style="shape=umlActor;fillColor=#fff2cc;strokeColor=#854F0B;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="70" width="50" x="729" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;fillColor=#e1d5e7;strokeColor=#3C3489;fontSize=11;" value="Registrarse / Login" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;fillColor=#e1d5e7;strokeColor=#3C3489;fontSize=11;" value="Reservar cita" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;fillColor=#e1d5e7;strokeColor=#3C3489;fontSize=11;" value="Ver cola en tiempo real" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;fillColor=#e1d5e7;strokeColor=#3C3489;fontSize=11;" value="Recibir alerta de turno" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="529" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;fillColor=#d5e8d4;strokeColor=#0F6E56;fontSize=11;" value="Pedir bebida" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="1" style="ellipse;fillColor=#d5e8d4;strokeColor=#0F6E56;fontSize=11;" value="Calificar barbero" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="1" style="ellipse;fillColor=#ffe6cc;strokeColor=#993C1D;fontSize=11;" value="Ver agenda del día" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="724" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="1" style="ellipse;fillColor=#ffe6cc;strokeColor=#993C1D;fontSize=11;" value="Actualizar estado de turno" vertex="1">
+          <mxGeometry height="44" width="170" x="283" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" parent="1" style="ellipse;fillColor=#fff2cc;strokeColor=#854F0B;fontSize=11;" value="Gestionar barberos" vertex="1">
+          <mxGeometry height="44" width="110" x="483" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;fillColor=#fff2cc;strokeColor=#854F0B;fontSize=11;" value="Ver ranking de barberos" vertex="1">
+          <mxGeometry height="44" width="110" x="483" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="ellipse;fillColor=#fff2cc;strokeColor=#854F0B;fontSize=11;" value="Gestionar inventario" vertex="1">
+          <mxGeometry height="44" width="110" x="483" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12" parent="1" style="ellipse;fillColor=#fff2cc;strokeColor=#854F0B;fontSize=11;" value="Ver reportes" vertex="1">
+          <mxGeometry height="44" width="110" x="483" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="2" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="cli" style="endArrow=none;" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="bar" style="endArrow=none;" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="bar" style="endArrow=none;" target="uc8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="adm" style="endArrow=none;" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="adm" style="endArrow=none;" target="uc10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="adm" style="endArrow=none;" target="uc11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="adm" style="endArrow=none;" target="uc12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
