@@ -86,7 +86,7 @@ Arquitectura **Cliente-Servidor desacoplada**: el frontend SPA consume una API R
 |  **Tablero Scrum (Trello)** | [Bar4Beards – Trello Board](https://trello.com/invite/b/69b9f7ea885a3812df5bc7c7/ATTIf76cb8cff95d12f1ee61b9d46ed7cba3604DA76B/bar4beards) |
 |  **Diseños UX/UI (Figma)** | [Mock Ups – Figma](https://www.figma.com/site/ZOPOyqQdrmykMTIzRhn4wb/Untitled?node-id=0-3&t=mVIqdFqX8sBpw5nL-1) |
 |  **Documento Fase 1 (PDF)** | [Bar4Beards_fase_1](https://drive.google.com/file/d/1QCYU70zBwj1kGarMz69c1uo74CbO9tR0/view?usp=drive_link) |
-|  **Documentación de la API** | [pendiente](https://drive.google.com/file/d/1IlUjMVSLQ3Z9D23_EPljz9DevuVyn_lF/view?usp=drive_link) |
+|  **Documentación de la API** | [Logica y UML](https://drive.google.com/file/d/1IlUjMVSLQ3Z9D23_EPljz9DevuVyn_lF/view?usp=drive_link) |
 
 ---
 
