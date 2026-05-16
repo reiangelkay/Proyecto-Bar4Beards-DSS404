@@ -8,6 +8,8 @@
 **Materia:** Desarrollo de Aplicaciones Web con Software Interpretado en el Servidor — DSS404  
 **Grupo Teórico:** G03T · **Ciclo:** 01-2026
 
+
+[![GitHub](https://shields.io)](https://github.com/SergioMonti19/Investigacion_Aplicada_2.git)
 [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)
