@@ -8,8 +8,6 @@
 **Materia:** Desarrollo de Aplicaciones Web con Software Interpretado en el Servidor — DSS404  
 **Grupo Teórico:** G03T · **Ciclo:** 01-2026
 
-
-[![GitHub](https://shields.io)](https://github.com/SergioMonti19/Investigacion_Aplicada_2.git)
 [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)
@@ -81,14 +79,15 @@ Arquitectura **Cliente-Servidor desacoplada**: el frontend SPA consume una API R
 
 ---
 
-## 🔗 Enlaces Importantes
+##  Enlaces Importantes
 
 | Recurso | Enlace |
 | :--- | :--- |
-|  **Tablero Scrum (Trello)** | [Bar4Beards – Trello Board](https://trello.com/invite/b/69b9f7ea885a3812df5bc7c7/ATTIf76cb8cff95d12f1ee61b9d46ed7cba3604DA76B/bar4beards) |
-|  **Diseños UX/UI (Figma)** | [Mock Ups – Figma](https://www.figma.com/site/ZOPOyqQdrmykMTIzRhn4wb/Untitled?node-id=0-3&t=mVIqdFqX8sBpw5nL-1) |
-|  **Documento Fase 1 (PDF)** | [Bar4Beards_fase_1](https://drive.google.com/file/d/1QCYU70zBwj1kGarMz69c1uo74CbO9tR0/view?usp=drive_link) |
-|  **Documentación de la API** | [Logica y UML](https://drive.google.com/file/d/1IlUjMVSLQ3Z9D23_EPljz9DevuVyn_lF/view?usp=drive_link) |
+| **Repositorio de investigacion aplicada a este proyecto** | [Investigacion_Aplicada_2 – GitHub](https://github.com) |
+| **Tablero Scrum (Trello)** | [Bar4Beards – Trello Board](https://trello.com/invite/b/69b9f7ea885a3812df5bc7c7/ATTIf76cb8cff95d12f1ee61b9d46ed7cba3604DA76B/bar4beards) |
+| **Diseños UX/UI (Figma)** | [Mock Ups – Figma](https://www.figma.com/site/ZOPOyqQdrmykMTIzRhn4wb/Untitled?node-id=0-3&t=mVIqdFqX8sBpw5nL-1) |
+| **Documento Fase 1 (PDF)** | [Bar4Beards_fase_1](https://drive.google.com/file/d/1QCYU70zBwj1kGarMz69c1uo74CbO9tR0/view?usp=drive_link) |
+| **Documentación de la API** | [Logica y UML](https://drive.google.com/file/d/1IlUjMVSLQ3Z9D23_EPljz9DevuVyn_lF/view?usp=drive_link) |
 
 ---
 
