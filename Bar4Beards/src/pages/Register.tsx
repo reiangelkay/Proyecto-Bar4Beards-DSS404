@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { Lock, Mail, User, Info } from 'lucide-react';
+import Footer from '../components/Footer';
 
 export default function Register() {
   const [name, setName] = useState('');
@@ -119,6 +120,7 @@ export default function Register() {
           ¿Ya tienes cuenta? <Link to="/login" className="text-indigo-600 font-semibold hover:underline">Inicia sesión</Link>
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { Trash2, Users, ShoppingBag, ClipboardList, CalendarDays, Pencil, Scisso
 import { Link } from 'react-router-dom';
 import { useAutoRefresh } from '../hooks/useAutoRefresh';
 import { useRealtimeUserEvents } from '../hooks/useRealtimeUserEvents';
+import Footer from '../components/Footer';
 
 type ProductForm = {
   name: string;
@@ -885,6 +886,7 @@ export default function AdminPanel() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api, BarberApplication } from '../services/api';
+import Footer from '../components/Footer';
 
 export default function Profile() {
   const { user, updateUser } = useAuth();
@@ -296,6 +297,7 @@ export default function Profile() {
           </form>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

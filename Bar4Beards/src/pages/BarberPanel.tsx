@@ -4,6 +4,7 @@ import { api, BarberLog, Appointment, Product, User } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useAutoRefresh } from '../hooks/useAutoRefresh';
 import { useRealtimeUserEvents } from '../hooks/useRealtimeUserEvents';
+import Footer from '../components/Footer';
 
 export default function BarberPanel() {
   const { user, updateUser } = useAuth();
@@ -356,7 +357,7 @@ export default function BarberPanel() {
           </div>
         </div>
       </div>
-      
+      <Footer />
     </div>
   );
 }

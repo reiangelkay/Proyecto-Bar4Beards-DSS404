@@ -3,6 +3,7 @@ import { api, Appointment, AppointmentReview, Product, User } from '../services/
 import { useAuth } from '../context/AuthContext';
 import { useAutoRefresh } from '../hooks/useAutoRefresh';
 import { useRealtimeUserEvents } from '../hooks/useRealtimeUserEvents';
+import Footer from '../components/Footer';
 
 export default function Appointments() {
   const { user } = useAuth();
@@ -391,6 +392,7 @@ export default function Appointments() {
           </div>
         )}
       </section>
+      <Footer />
     </div>
   );
 }

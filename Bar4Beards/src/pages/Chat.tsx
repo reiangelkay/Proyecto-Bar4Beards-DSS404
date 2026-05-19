@@ -5,6 +5,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Trash2 } from 'lucide-react';
 import { useAutoRefresh } from '../hooks/useAutoRefresh';
 import { useRealtimeUserEvents } from '../hooks/useRealtimeUserEvents';
+import Footer from '../components/Footer';
 
 export default function Chat() {
   const { user } = useAuth();
@@ -298,6 +299,7 @@ export default function Chat() {
           </footer>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }

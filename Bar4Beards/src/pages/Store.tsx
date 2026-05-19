@@ -4,6 +4,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { ShoppingCart } from 'lucide-react';
 import { useAutoRefresh } from '../hooks/useAutoRefresh';
+import Footer from '../components/Footer';
 
 export default function Store() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -100,6 +101,7 @@ export default function Store() {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { useNavigate } from 'react-router-dom';
 import { Trash2 } from 'lucide-react';
+import Footer from '../components/Footer';
 
 export default function Cart() {
   const { items, removeFromCart } = useCart();
@@ -68,6 +69,7 @@ export default function Cart() {
           Finalizar Compra
         </button>
       </div>
+      <Footer />
     </div>
   );
 }

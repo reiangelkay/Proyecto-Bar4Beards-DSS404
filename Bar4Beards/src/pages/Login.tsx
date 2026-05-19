@@ -3,6 +3,8 @@ import { useNavigate, Link } from 'react-router-dom';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { Lock, Mail } from 'lucide-react';
+import Footer from '@/components/Footer';
+
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -83,6 +85,7 @@ export default function Login() {
           ¿No tienes cuenta? <Link to="/register" className="text-indigo-600 font-semibold hover:underline">Regístrate</Link>
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
